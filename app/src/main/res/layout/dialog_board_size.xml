@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/radioGroup"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp">
+        <RadioButton
+                android:text="Easy (4 x 2)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbEasy" android:layout_weight="1"
+                android:checked="true"/>
+        <RadioButton
+                android:text="Medium (6 x 3)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbMedium" android:layout_weight="1"/>
+        <RadioButton
+                android:text="Hard (6 x 4)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbHard" android:layout_weight="1"/>
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

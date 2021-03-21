@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760467563163",
+    "project_id": "can-you-remember-this",
+    "storage_bucket": "can-you-remember-this.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760467563163:android:da59878d434991f5b01c3e",
+        "android_client_info": {
+          "package_name": "com.tbn.memorygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760467563163-ctq79qq3ure4ngn78c4f1l4gk0r0kvla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfTmDldKOrH5_Z3PM0BQyjAkTizUdpRZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760467563163-ctq79qq3ure4ngn78c4f1l4gk0r0kvla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
